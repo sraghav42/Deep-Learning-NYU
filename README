@@ -1,0 +1,12 @@
+This repositry contains the DEEP LEARNING ECEGY-7123 mini project 1 files.
+
+Repository contents - 
+  final_project1_model.py - Contains the final code for the Resnet mode applied on the CIFAR10 dataset
+  project1_model(1).pt - Contains the model with the best trained accuacy (94.5%)
+  plot(6).png - The graph of test/train versus the number of epochs
+  slurm-16630001.out - Contains the output of the python file for the final run
+  run.SBATCH - The batch file used to run the model on the NYU HPC.
+  
+To run the model, place the final_project1_model.py file on any high performance server and make sure the required dependencies like pytorch and matplotlib are installed, then run the file either in batch processing mode or through simple python command "python final_project1_mode.py"
+
+Note - The 150 epochs on this model took around 1 hr to complete on the NYU HPC Greene cluster.
